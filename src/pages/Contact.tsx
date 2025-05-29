@@ -37,8 +37,8 @@ const Contact = () => {
                   <div>
                     <h3 className="text-lg font-semibold mb-1">Our Office</h3>
                     <p className="text-muted-foreground">
-                      123 Business Avenue, Suite 500<br />
-                      New York, NY 10001
+                      Ground Floor Riverwalk Apartments,<br />
+                      River Garden Society, Islamabad
                     </p>
                   </div>
                 </div>
@@ -49,8 +49,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold mb-1">Email Us</h3>
-                    <p className="text-muted-foreground">info@hdcorp.com</p>
-                    <p className="text-muted-foreground">support@hdcorp.com</p>
+                    <p className="text-muted-foreground">sales@hdcorp.com</p>
                   </div>
                 </div>
                 
@@ -60,8 +59,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold mb-1">Call Us</h3>
-                    <p className="text-muted-foreground">(555) 123-4567</p>
-                    <p className="text-muted-foreground">(555) 987-6543</p>
+                    <p className="text-muted-foreground">(+92) 332-0432677</p>
                   </div>
                 </div>
               </div>
@@ -70,12 +68,8 @@ const Contact = () => {
                 <h3 className="text-xl font-semibold mb-4">Business Hours</h3>
                 <div className="space-y-2 text-muted-foreground">
                   <div className="flex justify-between">
-                    <span>Monday - Friday:</span>
-                    <span>9:00 AM - 6:00 PM</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Saturday:</span>
-                    <span>10:00 AM - 2:00 PM</span>
+                    <span>Monday - Saturday:</span>
+                    <span>10:00 - 19:00</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Sunday:</span>

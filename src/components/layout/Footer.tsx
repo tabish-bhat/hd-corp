@@ -93,15 +93,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 mt-0.5 text-accent" />
-                <span className="text-sm">123 Business Avenue, Suite 500<br />New York, NY 10001</span>
+                <span className="text-sm">Ground Floor Riverwalk Apartments,<br />River Garden Society, Islamabad</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2 text-accent" />
-                <span className="text-sm">(555) 123-4567</span>
+                <span className="text-sm">(+92) 332-0432677</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 text-accent" />
-                <span className="text-sm">info@hdcorp.com</span>
+                <span className="text-sm">sales@hdcorp.com</span>
               </li>
               <li className="mt-4">
                 <Button asChild className="bg-accent hover:bg-accent/90 text-primary">
