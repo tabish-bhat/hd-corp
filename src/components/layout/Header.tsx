@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { cn } from '@/lib/utils';
-import hdCorpLogo from '@/assets/images/hd-corp-logo.jpg';
+import hdCorpLogo from '@/assets/images/final_logo.jpg';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);

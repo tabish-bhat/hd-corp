@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Mail, MapPin, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import hdCorpLogo from '@/assets/images/hd-corp-logo.jpg';
+import hdCorpLogo from '@/assets/images/final_logo.jpg';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -93,7 +93,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 mt-0.5 text-accent" />
-                <span className="text-sm">Ground Floor Riverwalk Apartments,<br />River Garden Society, Islamabad</span>
+                <span className="text-sm">Plot No. 3/4, Street No. 30, Ground Floor,<br />River walk, River Garden, Islamabad</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2 text-accent" />

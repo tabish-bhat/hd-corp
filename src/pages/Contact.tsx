@@ -37,8 +37,8 @@ const Contact = () => {
                   <div>
                     <h3 className="text-lg font-semibold mb-1">Our Office</h3>
                     <p className="text-muted-foreground">
-                      Ground Floor Riverwalk Apartments,<br />
-                      River Garden Society, Islamabad
+                      Plot No. 3/4, Street No. 30, Ground Floor,<br />
+                      River walk, River Garden, Islamabad
                     </p>
                   </div>
                 </div>
