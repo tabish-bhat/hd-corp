@@ -12,7 +12,8 @@ const Header = () => {
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
     { name: 'Services', path: '/services' },
-    { name: 'Contact', path: '/contact' }
+    { name: 'Contact', path: '/contact' },
+    { name: 'Privacy', path: '/privacy-policy' }
   ];
 
   const toggleMenu = () => setIsOpen(!isOpen);

@@ -52,6 +52,11 @@ const Footer = () => {
                   Contact Us
                 </NavLink>
               </li>
+              <li>
+                <NavLink to="/privacy-policy" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                  Privacy Policy
+                </NavLink>
+              </li>
             </ul>
           </div>
 
@@ -115,7 +120,16 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-sm text-primary-foreground/60">
-          <p>© {currentYear} HD Corp. All rights reserved.</p>
+          <div className="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-y-0 md:space-x-4">
+            <p>© {currentYear} HD Corp. All rights reserved.</p>
+            <div className="hidden md:block">•</div>
+            <NavLink 
+              to="/privacy-policy" 
+              className="hover:text-accent transition-colors underline"
+            >
+              Privacy Policy
+            </NavLink>
+          </div>
         </div>
       </div>
     </footer>
